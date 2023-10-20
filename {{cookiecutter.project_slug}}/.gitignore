@@ -1,16 +1,3 @@
-# Uncomment this entry
-#.env
-.env.docker
-venv/
-.venv/
-log.ini
-*.log
-__pycache__
-/tmp/*
-
-# Uncomment this entry
-#test_service.yml
-
 # Editor directories and files
 .idea
 .DS_Store
@@ -21,3 +8,11 @@ __pycache__
 *.sw?
 /.history
 /.vscode
+
+.env.docker
+venv/
+.venv/
+log.ini
+*.log
+__pycache__
+/tmp/*
