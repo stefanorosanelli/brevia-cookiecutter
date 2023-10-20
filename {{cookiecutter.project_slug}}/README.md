@@ -20,10 +20,10 @@ You can run `docker compose --profile admin up` to run postgres+pgvector and pga
 
 The `4000` port is configurable with the `PGADMIN_PORT` environment var in the `.env` file.
 
-Launch migrations to create the initial schema with [Alembic](https://alembic.sqlalchemy.org)
+Launch migrations to create the initial schema with [Alembic](https://alembic.sqlalchemy.org) by using this brevia command
 
 ```bash
-alembic upgrade head
+db_upgrade
 ```
 
 ## Launch
